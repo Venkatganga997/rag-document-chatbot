@@ -1,0 +1,28 @@
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+pydantic==2.6.1
+
+# LangChain ecosystem
+langchain==0.1.9
+langchain-community==0.0.24
+langchain-openai==0.0.8
+langchain-chroma==0.1.0
+langgraph==0.0.28
+
+# OpenAI
+openai==1.12.0
+
+# Vector store
+chromadb==0.4.22
+
+# PDF parsing
+pypdf==4.0.2
+
+# HuggingFace embeddings (local alternative to OpenAI)
+sentence-transformers==2.4.0
+transformers==4.38.1
+
+# utils
+python-dotenv==1.0.1
+httpx==0.26.0
